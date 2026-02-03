@@ -14,7 +14,7 @@ function EffectDemo() {
   return (
     <div>
       <h2>Count: {count}</h2>
-      <button onClick={() => setCount(count + 1)}>Lisää</button>
+      <button onClick={() => setCount(count + 1)}>Add</button>
     </div>
   );
 }

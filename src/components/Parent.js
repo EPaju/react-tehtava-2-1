@@ -7,8 +7,8 @@ export default function Parent() {
   return (
     <div>
       <h2>Parent Component</h2>
-      <button onClick={() => setParentState(parentState + 1)}>Lisää Parent state</button>
-      <Child message={`Parent state on nyt ${parentState}`} />
+      <button onClick={() => setParentState(parentState + 1)}>Add Parent state</button>
+      <Child message={`Parent state is now ${parentState}`} />
     </div>
   );
 }

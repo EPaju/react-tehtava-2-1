@@ -1,38 +1,69 @@
+/* Taustaväri ja fontti koko sovellukselle */
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  background-color: #e6f0ff; /* vaalea sininen */
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #003366; /* tummansininen teksti */
+}
+
+/* Otsikot */
+h1 {
+  color: #002244;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #0044aa;
+  margin: 20px 0 10px;
+}
+
+/* Boksi kaikille demo-komponenteille */
+section {
+  background-color: #ffffff; /* valkoinen boksi */
+  border-radius: 12px;
+  padding: 15px 20px;
+  margin: 15px auto;
+  max-width: 600px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+/* Pieni hover-efekti */
+section:hover {
+  transform: translateY(-5px);
+}
+
+/* Napit */
+button {
+  background-color: #0066cc;
   color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+  transition: background-color 0.2s, transform 0.2s;
 }
 
-.App-link {
-  color: #61dafb;
+button:hover {
+  background-color: #004999;
+  transform: scale(1.05);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Inputit */
+input {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #004999;
+  margin-top: 5px;
+  outline: none;
+}
+
+/* Satunnaisnumero/näkymätekstin tyyli */
+p {
+  font-size: 1.1rem;
+  margin: 10px 0;
 }

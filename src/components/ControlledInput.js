@@ -10,7 +10,7 @@ function ControlledInput() {
         value={name} // controlled
         onChange={(e) => setName(e.target.value)}
       />
-      <p>Hei, {name}!</p>
+      <p>Hello, {name}!</p>
     </div>
   );
 }

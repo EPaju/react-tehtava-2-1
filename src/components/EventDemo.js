@@ -4,7 +4,7 @@ function EventDemo() {
   const [text, setText] = useState("");
 
   const handleClick = () => {
-    alert("Painoit nappia!");
+    alert("You pushed the button!");
   };
 
   const handleChange = (e) => {
@@ -13,9 +13,9 @@ function EventDemo() {
 
   return (
     <div>
-      <button onClick={handleClick}>Klikkaa minua</button>
+      <button onClick={handleClick}>Klick me!</button>
       <input type="text" value={text} onChange={handleChange} />
-      <p>Syöttämäsi teksti: {text}</p>
+      <p>Your text: {text}</p>
     </div>
   );
 }

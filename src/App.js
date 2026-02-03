@@ -4,41 +4,43 @@ import EventDemo from "./components/EventDemo";
 import ControlledInput from "./components/ControlledInput";
 import EffectDemo from "./components/EffectDemo";
 import Parent from "./components/Parent";
-import WindowWidthDemo from "./components/WindowWidthDemo";
+import RandomNumberDemo from "./components/RandomNumberDemo";
+import './App.css';
+
 
 function App() {
   return (
     <div className="App">
-      <h1>React Tehtävä 2.1 Demo</h1>
+      <h1>React Tehtävä 2.1</h1>
 
       <section>
-        <h2>1. Counter (useState)</h2>
+        <h2>1. Counter</h2>
         <Counter />
       </section>
 
       <section>
-        <h2>2. EventDemo (onClick & onChange)</h2>
+        <h2>2. Events</h2>
         <EventDemo />
       </section>
 
       <section>
-        <h2>3. ControlledInput</h2>
+        <h2>3. Controlled State</h2>
         <ControlledInput />
       </section>
 
       <section>
-        <h2>4. EffectDemo (useEffect)</h2>
+        <h2>4. UseEffect</h2>
         <EffectDemo />
       </section>
 
       <section>
-        <h2>5-6. Parent & Child (props & children)</h2>
+        <h2>5-6. Props</h2>
         <Parent />
       </section>
 
       <section>
-        <h2>7. WindowWidthDemo (oma hook)</h2>
-        <WindowWidthDemo />
+        <h2>7. Oma hook</h2>
+        <RandomNumberDemo />
       </section>
     </div>
   );
