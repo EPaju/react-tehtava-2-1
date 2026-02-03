@@ -1,11 +1,11 @@
 /* Taustaväri ja fontti koko sovellukselle */
 .App {
   text-align: center;
-  background-color: #e6f0ff; /* vaalea sininen */
+  background-color: #e6f0ff;
   min-height: 100vh;
   padding: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #003366; /* tummansininen teksti */
+  color: #003366;
 }
 
 /* Otsikot */
@@ -21,7 +21,7 @@ h2 {
 
 /* Boksi kaikille demo-komponenteille */
 section {
-  background-color: #ffffff; /* valkoinen boksi */
+  background-color: #ffffff;
   border-radius: 12px;
   padding: 15px 20px;
   margin: 15px auto;
@@ -30,7 +30,7 @@ section {
   transition: transform 0.2s;
 }
 
-/* Pieni hover-efekti */
+/* Pieni hover-efekti, ei tee toiminnoista niin tönkköjä */
 section:hover {
   transform: translateY(-5px);
 }
@@ -62,7 +62,7 @@ input {
   outline: none;
 }
 
-/* Satunnaisnumero/näkymätekstin tyyli */
+/* Näkymätekstin tyyli */
 p {
   font-size: 1.1rem;
   margin: 10px 0;
